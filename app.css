@@ -37,7 +37,7 @@ body{
 	position: absolute;
 	left: 5%;
 	top: 220px;
-	letter-spacing: 5.6rem;
+	letter-spacing: 3rem;
 	color: white;
 	white-space: nowrap
 }
@@ -50,7 +50,7 @@ body{
 	position: absolute;
 	left: 5%;
 	top: 223px;
-	letter-spacing: 5.6rem;
+	letter-spacing: 3rem;
 	color: gray;
 	white-space: nowrap
 }
@@ -80,28 +80,34 @@ body{
 	animation-duration: 1s;
 }
 
-#download{
+#play{
 	position: absolute;
-	top: 45%;
-
+	top: 35%;
 }
 
-#discord{
+#download{
 	position: absolute;
-	top: 65%;
-
+	top: 43%;
 }
 
 #rankings{
 	position: absolute;
-	top: 55%;
+	top: 51%;
+}
 
+#discord{
+	position: absolute;
+	top: 59%;
+}
+
+#github{
+	position: absolute;
+	top: 67%;
 }
 
 #about{
 	position: absolute;
 	top: 75%;
-
 }
 
 .sidebar-contents {
