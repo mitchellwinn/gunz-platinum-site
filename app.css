@@ -81,46 +81,27 @@ body{
 	overflow: hidden;
 }
 
-#play{
+.sidebar-nav {
 	position: absolute;
-	top: 35%;
-}
-
-#download{
-	position: absolute;
-	top: 43%;
-}
-
-#rankings{
-	position: absolute;
-	top: 51%;
-}
-
-#discord{
-	position: absolute;
-	top: 59%;
-}
-
-#github{
-	position: absolute;
-	top: 67%;
-}
-
-#about{
-	position: absolute;
-	top: 75%;
+	top: 38%;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-right: 30px;
+	box-sizing: border-box;
+	gap: 18px;
 }
 
 .sidebar-contents {
 	font-family: "Lucida Console", "Courier New", monospace;
-	font-size:20px;
-	position: absolute;
-	left: 50px;
+	font-size: 20px;
 	color: white;
 	z-index: 0;
 	cursor: pointer;
-	width: 400px;
 	text-align: right;
+	white-space: nowrap;
 }
 
 .container1{
@@ -134,49 +115,51 @@ body{
 
 .login_container{
 	font-family: "Lucida Console", "Courier New", monospace;
-	font-size:25px;
+	font-size:20px;
 	position: absolute;
 	top: 500px;
 	right:1.75%;
 	color: white;
-	max-height: auto;
-	max-width: 35%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .password_container{
 	font-family: "Lucida Console", "Courier New", monospace;
-	font-size:25px;
+	font-size:20px;
 	position: absolute;
-	top: 550px;
+	top: 545px;
 	right:1.75%;
 	color: white;
-	max-height: auto;
-	max-width: 35%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .login_button{
-	background-color: #edd5b4; 
-	font: 22px Arial;
+	background-color: #edd5b4;
+	font: 18px Arial;
 	color: brown;
 	position: absolute;
 	top: 498px;
 	right: 40px;
 	border: 2px solid brown;
-	padding: .15em;
+	padding: .25em .6em;
 	border-radius: 50px;
 	display: inline-block;
 	cursor: pointer;
 }
 
 .register_button{
-	background-color: #edd5b4; 
-	font: 22px Arial;
+	background-color: #edd5b4;
+	font: 18px Arial;
 	color: brown;
 	position: absolute;
-	top: 546px;
+	top: 543px;
 	right: 40px;
 	border: 2px solid brown;
-	padding: .20em;
+	padding: .25em .6em;
 	border-radius: 50px;
 	display: inline-block;
 	cursor: pointer;
