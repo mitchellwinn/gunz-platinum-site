@@ -1,0 +1,301 @@
+body{
+	background: linear-gradient(0deg,#6a6a6a 0%, #9a9a9a 20%, #9a9a9a 80%);
+	overflow: hidden
+}
+.main-header{
+	position: absolute;
+	left: 5%;
+	top: 5%;
+}
+
+#h1{
+	animation-name: neogunz;
+	animation-duration: 2s;
+	z-index: -1;
+	font: 200px Arial;
+	position: absolute;
+	color: white;
+	font-style: italic;
+}
+
+#h3{
+	animation-name: neogunz;
+	animation-duration: 2s;
+	z-index: -2;
+	font: 200px Arial;
+	position: absolute;
+	color: gray;
+	font-style: italic;
+	top: 10px;
+}
+
+#h2{
+	animation-name: theduel;
+	animation-duration: 1.5s;
+	z-index: -1;
+	font: 50px Arial;
+	position: absolute;
+	left: 5%;
+	top: 220px;
+	letter-spacing: 5.6rem;
+	color: white;
+	white-space: nowrap
+}
+
+#h4{
+	animation-name: theduel;
+	animation-duration: 1.5s;
+	z-index: -2;
+	font: 50px Arial;
+	position: absolute;
+	left: 5%;
+	top: 223px;
+	letter-spacing: 5.6rem;
+	color: gray;
+	white-space: nowrap
+}
+
+#info{
+	max-inline-size: 95%;
+	z-index: 0;
+	font: 16px Calibri;
+	color: white; 
+	outline: 2px dotted black;
+	background-color: rgb(75,75,75);
+	opacity: 1;
+	position: absolute;
+	left: 1%;
+	bottom: 0%;
+}
+
+#sidebar {
+	position: absolute;
+	width: 486px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: black;
+	z-index: -10;
+	animation-name: sidebar;
+	animation-duration: 1s;
+}
+
+#download{
+	position: absolute;
+	top: 45%;
+
+}
+
+#discord{
+	position: absolute;
+	top: 65%;
+
+}
+
+#rankings{
+	position: absolute;
+	top: 55%;
+
+}
+
+#about{
+	position: absolute;
+	top: 75%;
+
+}
+
+.sidebar-contents {
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:25px;
+	position: absolute;
+	left: 300px;
+	color: white;
+	z-index: 0;
+	cursor: pointer;
+	width: 170px;
+	text-align: right;
+}
+
+.container1{
+	animation-name: login-bubble;
+	animation-delay:0s;
+	animation-duration: 1s;
+	position: relative;
+	top: 20%;
+	right:3%;
+}
+
+.login_container{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:25px;
+	position: absolute;
+	top: 500px;
+	right:1.75%;
+	color: white;
+	max-height: auto;
+	max-width: 35%;
+}
+
+.password_container{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:25px;
+	position: absolute;
+	top: 550px;
+	right:1.75%;
+	color: white;
+	max-height: auto;
+	max-width: 35%;
+}
+
+.login_button{
+	background-color: #edd5b4; 
+	font: 22px Arial;
+	color: brown;
+	position: absolute;
+	top: 498px;
+	right: 40px;
+	border: 2px solid brown;
+	padding: .15em;
+	border-radius: 50px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.register_button{
+	background-color: #edd5b4; 
+	font: 22px Arial;
+	color: brown;
+	position: absolute;
+	top: 546px;
+	right: 40px;
+	border: 2px solid brown;
+	padding: .20em;
+	border-radius: 50px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.cutout1{
+	animation-name: cutout1;
+	animation-duration: 0.5s;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+	max-height: 100%;
+	max-width: auto;
+}
+
+.cutout2{
+	animation-name: cutout2;
+	animation-duration: 0.5s;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: -1;
+	max-height: 100%;
+	max-width: 80%;
+}
+
+.grad1{
+	z-index: -11;
+	opacity: .75;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}	
+
+.grad2{
+	z-index: -11;
+	opacity: .85;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 50%;
+	width: 100%;
+}	
+
+.footer {
+    background-image: url('images/footer.png');
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 950px;
+    width: 100%;
+    z-index: -101;
+    bottom: 0;
+}
+
+.speech-bubble {
+	max-height: auto;
+	max-width: 37%;
+	position: absolute;
+	top:450px;
+	right: 0px;
+	color: white;
+	background: rgba(.75,.75,.75,.5);
+	border-style: solid;
+	border-radius: 30px;
+	border-color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 17px;
+	font-style: bold;
+	padding: 12px;
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 26px solid transparent;
+	border-bottom-color: #FFFFFF;
+	border-top: 0;
+	margin-left: -26px;
+	margin-top: -26px;
+}
+
+.heighttext{
+	max-width: 50%;
+	height:30px;
+	font-size: 30px;
+}
+
+
+@keyframes cutout1 {
+	0%   {right:-250px; opacity: 0;}
+	100% {right:0px; opacity:  1;}
+}
+
+@keyframes cutout2 {
+	0%   {left:-250px; opacity: 0;}
+	100% {left:0px; opacity:  1;}
+}
+
+@keyframes login-bubble {
+	0%   {top:-20px; opacity: 0;}
+	40%   {top:-20px; opacity: 0;}
+	100% {top:0px; opacity:  1;}
+}
+
+@keyframes sidebar {
+	0%   {left:-200px; opacity: 0;}
+	40%   {left:-200px; opacity: 0;}
+	100% {left:0px; opacity:  1;}
+}
+
+@keyframes neogunz {
+	0%   {left:-1000px; opacity: 0;}
+	10%   {left:-1000px; opacity: 1;}
+	50% {left:0px; opacity:  1;}
+}
+
+@keyframes theduel {
+	0%   {top:250px; opacity: 0;}
+	20%   {top:250px; opacity: 0;}
+	70%   {opacity: 1;}
+}
