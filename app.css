@@ -75,9 +75,10 @@ body{
 	top: 0px;
 	left: 0px;
 	background: black;
-	z-index: -10;
+	z-index: -5;
 	animation-name: sidebar;
 	animation-duration: 1s;
+	overflow: hidden;
 }
 
 #play{
@@ -112,13 +113,13 @@ body{
 
 .sidebar-contents {
 	font-family: "Lucida Console", "Courier New", monospace;
-	font-size:25px;
+	font-size:20px;
 	position: absolute;
-	left: 300px;
+	left: 50px;
 	color: white;
 	z-index: 0;
 	cursor: pointer;
-	width: 170px;
+	width: 400px;
 	text-align: right;
 }
 
